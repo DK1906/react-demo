@@ -1,0 +1,30 @@
+
+
+
+// 全局的 样式  golbal css
+
+// css 后缀不能省略   
+// @import "animate.css";
+
+
+
+$base_color:yellowgreen;
+$base_font:40px;
+
+html,body,#app,.main{
+    width:100vw;
+    height:100vh;
+    font-size: 100px; /*no*/
+}
+
+#app{
+    color:$base_color;
+    border:2px solid red;
+    box-sizing: border-box;
+}
+
+.msg{
+    width:200px;
+    height:300px;  /*no*/
+    background: darkorchid;
+}
